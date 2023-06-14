@@ -1,3 +1,27 @@
+macro_tmux_4: macro_tmux_4{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_4";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp A>, <&kp NUMBER_4>;
+};
+macro_tmux_3: macro_tmux_3{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_3";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp A>, <&kp NUMBER_3>;
+};
+macro_tmux_2: macro_tmux_2{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_2";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp A>, <&kp NUMBER_2>;
+};
+macro_tmux_1: macro_tmux_1{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_1";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp A>, <&kp NUMBER_1>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
