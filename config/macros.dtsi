@@ -5,7 +5,7 @@ label = "macro_tmux_4";
 bindings
     = <&macro_press &kp LCTRL>
     , <&kp A>
-    , <&macro_press &kp LCTRL>
+    , <&macro_release &kp LCTRL>
     , <&kp NUMBER_4>
     ;
 };
@@ -16,7 +16,7 @@ label = "macro_tmux_3";
 bindings
     = <&macro_press &kp LCTRL>
     , <&kp A>
-    , <&macro_press &kp LCTRL>
+    , <&macro_release &kp LCTRL>
     , <&kp NUMBER_3>
     ;
 };
@@ -27,7 +27,7 @@ label = "macro_tmux_2";
 bindings
     = <&macro_press &kp LCTRL>
     , <&kp A>
-    , <&macro_press &kp LCTRL>
+    , <&macro_release &kp LCTRL>
     , <&kp NUMBER_2>
     ;
 };
@@ -38,7 +38,7 @@ label = "macro_tmux_1";
 bindings
     = <&macro_press &kp LCTRL>
     , <&kp A>
-    , <&macro_press &kp LCTRL>
+    , <&macro_release &kp LCTRL>
     , <&kp NUMBER_1>
     ;
 };
