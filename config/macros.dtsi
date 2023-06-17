@@ -6,7 +6,7 @@ bindings
     = <&macro_press &kp LCTRL>
     , <&macro_tap &kp A>
     , <&macro_release &kp LCTRL>
-    , <&kp NUMBER_4>
+    , <&macro_tap &kp NUMBER_4>
     ;
 };
 macro_tmux_3: macro_tmux_3{
@@ -17,7 +17,7 @@ bindings
     = <&macro_press &kp LCTRL>
     , <&macro_tap &kp A>
     , <&macro_release &kp LCTRL>
-    , <&kp NUMBER_3>
+    , <&macro_tap &kp NUMBER_3>
     ;
 };
 macro_tmux_2: macro_tmux_2{
@@ -28,7 +28,7 @@ bindings
     = <&macro_press &kp LCTRL>
     , <&macro_tap &kp A>
     , <&macro_release &kp LCTRL>
-    , <&kp NUMBER_2>
+    , <&macro_tap &kp NUMBER_2>
     ;
 };
 macro_tmux_1: macro_tmux_1{
@@ -39,7 +39,7 @@ bindings
     = <&macro_press &kp LCTRL>
     , <&macro_tap &kp A>
     , <&macro_release &kp LCTRL>
-    , <&kp NUMBER_1>
+    , <&macro_tap &kp NUMBER_1>
     ;
 };
 macro_quotes: macro_quotes{
